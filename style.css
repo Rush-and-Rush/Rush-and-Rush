@@ -7,14 +7,20 @@ body {
 }
 
 .middle {
-    margin-top: 230px;
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #FFFFFF; /* Default text color for better readability */
+}
+.middle1 {
+    margin-top: 100px;
     font-size: 50px;
     font-family: "Roboto", sans-serif;
     text-align: center;
     color: #FFFFFF; /* Default text color for better readability */
 }
 
-.middle a {
+a {
     text-decoration: none; /* Removes the underline */
     color: #E0E0E0; /* Light gray color for the text */
     background: linear-gradient(45deg, #ffffff, #00aaff, #ff00ff, #00ffaa); /* Gradient effect */
